@@ -1,0 +1,216 @@
+/*
+* 
+* @author Guilherme Souza GSDev
+*/
+
+
+@font-face{
+		font-family: victoria;
+		src:url("../font/mevno1.woff");
+	}
+	
+	@font-face{
+		font-family: decadencia;
+		src:url("../font/decadence.woff");
+	}
+
+html, body, #home{
+	
+	height:100%;
+}
+
+.33{
+	color:snow;
+}
+
+
+
+body {
+	background: url('../imagem/t1.jpg') no-repeat rgb(240,230,140) ;
+	background-position:top center;
+	font-family: Helvetica, sans-serif;
+	height:600px;
+	
+}
+
+
+
+.intro{
+	border:groove 5px #FFD700;
+	border-radius:7px;
+	height:430px;
+	
+}
+
+nav.navbar-transparente{
+	padding:15px 0px;
+	background: rgba(0,0,0,0.5);
+	
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color:#fffb95;
+	font-family:decadencia;
+	font-size:20px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color:red;
+}
+
+.drop{
+	color:#fffb95;
+	
+}
+
+.drop:hover{
+	color:red;
+}
+
+.divisor {
+	width:1px;
+	background:white;
+	margin:12px 15px;
+}
+
+.capa{
+	text-align:center;
+	
+}
+
+.descricao{
+	font-family:Verdana, sans-serif;
+	color:	#f8f8f8;
+	
+}
+
+.btn-custom{
+	color:#fffad4;
+	border-radius:100px;
+	-webkit-border-radius:100px;
+	-moz-border-radius:100px;
+	text-transform:uppercase;
+	transition:background 0.6s, color 0.6s;
+	padding:8px 15px;
+	margin:20px 10px;
+}
+
+.btn-exetcion{
+	padding:8px 70px;
+	
+	
+}
+
+.btn-cor{
+	
+	background: -webkit-linear-gradient(to bottom, #faa600, #f68a00);
+	background: -moz-linear-gradient(to bottom, #faa600, #f68a00);
+	background: -o-linear-gradient(to bottom, #faa600, #f68a00);
+	background: linear-gradient(to bottom, #faa600, #f68a00);
+	
+}
+
+.cor2{
+	background: -webkit-linear-gradient(to bottom, #faa600, #f68a00);
+	background: -moz-linear-gradient(to bottom, #faa600, #f68a00);
+	background: -o-linear-gradient(to bottom, #faa600, #f68a00);
+	background: linear-gradient(to bottom, #faa600, #f68a00);
+	padding:5px;
+	font-size:15px;
+}
+
+.cor2:hover{
+	color:snow;
+	background:gold
+}
+
+.btn-cor:hover{
+	color:snow;
+	background:gold;
+}
+
+/***Conteudos***/
+
+#servico{
+	background:white;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+#recursos{
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+#recursos h2, h3, .bug{
+	color:snow;
+}
+
+.paragrafo{
+	color:snow;
+	font-family:decadencia;
+}
+
+#servico h2, h3{
+	color: #ffd220;
+}
+
+
+.texto-1{
+	color: #ffd220;
+	font-family:decadencia;
+	
+}
+
+.albuns{
+	padding:10px 0;
+}
+
+h1{
+	font-family:victoria;
+	color:#ffd220;
+	font-size:47px;
+}
+
+h2{
+	font-size:2.5em;
+	font-family: victoria;
+	letter-spacing:-0.04em;
+}
+
+h3{
+	font-family: decadencia;
+	font-size: 2em;
+	letter-spacing:-0.04em;
+}
+
+footer{
+	background:#000;
+	padding:50px 0px 20px 0px;
+	position:relative;
+}
+
+footer h4 {
+	color:#919496;
+	font-size:0.8em;
+	text-transform:uppercase;
+}
+
+footer .navbar-nav a{
+	color:white;
+	font-size:0.8em;
+}
+
+footer .navbar-nav a:hover{
+	color:#9bf0e1;
+	text-decoration:none;
+}
+
+footer ul {
+	list-style:none;
+}
+
+footer ul  li{
+	float:right;
+	margin:0px 5px;
+}
